@@ -1,0 +1,244 @@
+fileFormatVersion: 2
+guid: ab10bd48d281f3d499322b9a0e594dd1
+ModelImporter:
+  serializedVersion: 20200
+  internalIDToNameTable:
+  - first:
+      74: 1827226128182048838
+    second: Take 001
+  externalObjects: {}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 1
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Take 001
+      takeName: Take 001
+      internalID: 0
+      firstFrame: 1777
+      lastFrame: 1833
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton:
+    - name: aa(Clone)
+      parentName: 
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Skeleton 001:HipNull
+      parentName: aa(Clone)
+      position: {x: 0, y: -0.00000017881393, z: 0.9926202}
+      rotation: {x: 0.7305301, y: -0.0067960313, z: 0.006888451, w: 0.682812}
+      scale: {x: 0.39370084, y: 0.3937008, z: 0.3937008}
+    - name: Skeleton 001:AbNull
+      parentName: Skeleton 001:HipNull
+      position: {x: -0, y: 0.19972019, z: 0}
+      rotation: {x: -0.08916248, y: -0.02162732, z: -0.012465989, w: 0.99570423}
+      scale: {x: 1, y: 1, z: 1.0000001}
+    - name: Skeleton 001:ChestNull
+      parentName: Skeleton 001:AbNull
+      position: {x: -0, y: 0.3769106, z: 0}
+      rotation: {x: 0.0361978, y: -0.0072355275, z: 0.015311761, w: 0.9992011}
+      scale: {x: 0.99999994, y: 0.9999999, z: 0.9999999}
+    - name: Skeleton 001:NeckNull
+      parentName: Skeleton 001:ChestNull
+      position: {x: -0, y: 0.445389, z: 0}
+      rotation: {x: -0.009043696, y: -0.082294054, z: -0.039755993, w: 0.99577373}
+      scale: {x: 0.99999994, y: 1.0000001, z: 1.0000001}
+    - name: Skeleton 001:HeadNull
+      parentName: Skeleton 001:NeckNull
+      position: {x: -0, y: 0.3775202, z: 0.0487172}
+      rotation: {x: 0.14797941, y: -0.090264514, z: -0.006578437, w: 0.9848407}
+      scale: {x: 1, y: 0.9999998, z: 0.9999999}
+    - name: Skeleton 001:LShoulderNull
+      parentName: Skeleton 001:ChestNull
+      position: {x: -0.0964946, y: 0.3357626, z: -0.0110236}
+      rotation: {x: -0.037131652, y: 0.07442278, z: -0.030884523, w: 0.99605656}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Skeleton 001:LUArmNull
+      parentName: Skeleton 001:LShoulderNull
+      position: {x: -0.3347212, y: 0, z: 0}
+      rotation: {x: 0.027543705, y: -0.0725097, z: 0.027115384, w: 0.99661857}
+      scale: {x: 1.0000001, y: 1, z: 1.0000001}
+    - name: Skeleton 001:LFArmNull
+      parentName: Skeleton 001:LUArmNull
+      position: {x: -0.7302754, y: 0, z: 0}
+      rotation: {x: -0.19967978, y: 0.011078642, z: 0.0019250024, w: 0.97979665}
+      scale: {x: 0.9999999, y: 1, z: 1.0000001}
+    - name: Skeleton 001:LHandNull
+      parentName: Skeleton 001:LFArmNull
+      position: {x: -0.53812444, y: 0, z: 0}
+      rotation: {x: -0.19586629, y: -0.12990752, z: -0.116798736, w: 0.96494484}
+      scale: {x: 1, y: 1, z: 0.99999994}
+    - name: Skeleton 001:RShoulderNull
+      parentName: Skeleton 001:ChestNull
+      position: {x: 0.0978408, y: 0.3357626, z: -0.0110236}
+      rotation: {x: -0.022226192, y: -0.14811806, z: 0.05026672, w: 0.9874413}
+      scale: {x: 0.99999994, y: 1.0000001, z: 1.0000001}
+    - name: Skeleton 001:RUArmNull
+      parentName: Skeleton 001:RShoulderNull
+      position: {x: 0.3347212, y: 0, z: 0}
+      rotation: {x: -0.19725022, y: 0.14813782, z: -0.024644572, w: 0.96878284}
+      scale: {x: 1, y: 0.9999998, z: 0.99999994}
+    - name: Skeleton 001:RFArmNull
+      parentName: Skeleton 001:RUArmNull
+      position: {x: 0.7302754, y: 0, z: 0}
+      rotation: {x: -0.22514409, y: -0.026903445, z: -0.004070637, w: 0.97394544}
+      scale: {x: 0.99999994, y: 0.9999998, z: 0.99999994}
+    - name: Skeleton 001:RHandNull
+      parentName: Skeleton 001:RFArmNull
+      position: {x: 0.589153, y: 0, z: 0}
+      rotation: {x: -0.22341274, y: 0.05749052, z: -0.08361213, w: 0.969428}
+      scale: {x: 0.99999994, y: 1, z: 0.9999999}
+    - name: Skeleton 001:LThighNull
+      parentName: Skeleton 001:HipNull
+      position: {x: -0.2435606, y: 0, z: 0}
+      rotation: {x: -0.06750047, y: 0.1243031, z: -0.03038854, w: 0.9894792}
+      scale: {x: 0.99999994, y: 1, z: 1}
+    - name: Skeleton 001:LShinNull
+      parentName: Skeleton 001:LThighNull
+      position: {x: -0, y: -1.3598398, z: 0}
+      rotation: {x: 0.19398734, y: 0.07359562, z: 0.03750607, w: 0.9775203}
+      scale: {x: 0.99999994, y: 0.9999999, z: 0.99999994}
+    - name: Skeleton 001:LFootNull
+      parentName: Skeleton 001:LShinNull
+      position: {x: 0.00050799997, y: -0.93919045, z: -0.00635}
+      rotation: {x: -0.15477693, y: -0.14072356, z: 0.00313658, w: 0.97787076}
+      scale: {x: 1, y: 1.0000001, z: 1}
+    - name: Skeleton 001:LToeNull
+      parentName: Skeleton 001:LFootNull
+      position: {x: -0, y: -0.15831819, z: 0.36535358}
+      rotation: {x: 0.01527848, y: 0.019747261, z: -0.0033120166, w: 0.9996828}
+      scale: {x: 0.99999994, y: 1.0000001, z: 1.0000001}
+    - name: Skeleton 001:RThighNull
+      parentName: Skeleton 001:HipNull
+      position: {x: 0.2435606, y: 0, z: 0}
+      rotation: {x: -0.033311315, y: 0.056150652, z: 0.14535607, w: 0.9872229}
+      scale: {x: 0.9999999, y: 0.99999994, z: 1}
+    - name: Skeleton 001:RShinNull
+      parentName: Skeleton 001:RThighNull
+      position: {x: -0, y: -1.3598398, z: 0}
+      rotation: {x: 0.13937894, y: 0.08684646, z: 0.013329753, w: 0.9863334}
+      scale: {x: 0.9999999, y: 0.9999999, z: 0.9999998}
+    - name: Skeleton 001:RFootNull
+      parentName: Skeleton 001:RShinNull
+      position: {x: 0.0037338, y: -0.9820148, z: 0.0022352}
+      rotation: {x: -0.05714979, y: -0.026307475, z: -0.12795964, w: 0.98978186}
+      scale: {x: 1, y: 1.0000001, z: 1.0000001}
+    - name: Skeleton 001:RToeNull
+      parentName: Skeleton 001:RFootNull
+      position: {x: -0, y: -0.15831819, z: 0.36535358}
+      rotation: {x: 0.022257457, y: 0.018789042, z: -0.0026598435, w: 0.99957216}
+      scale: {x: 1, y: 0.9999998, z: 0.9999999}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 3
+  humanoidOversampling: 1
+  avatarSetup: 1
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
